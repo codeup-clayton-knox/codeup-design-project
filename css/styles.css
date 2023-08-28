@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
+:root {
+    --tabOne- :#E6563B;
+    --tabTwo- :#EB9D3A;
+    --tabThree- : #7CB06C;
+    --tabFour- :#00ABA9;
+    --primaryColor- :#F0F0F0;
+    --secondaryColor- :#E6E6E6;
+}
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-width: 100vh;
+    background: var(--primaryColor-);
+}
+.container {
+    margin: unset;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+header div img {
+    max-width: 52px;
+}
+p {
+    font-family: 'Abel', sans-serif;
+    margin: 0;
+}
+h1, h2, h3 {
+    font-family: 'Anton', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 57px;
+}
+.iconOne {
+    background-color: var(--tabOne-);
+    font-family: 'Anton', sans-serif;
+    color: white;
+    padding: 26px 18px;
+    border: solid 7px white
+}
+.iconTwo {
+    background-color: var(--tabTwo-);
+    font-family: 'Anton', sans-serif;
+    color: white;
+    padding: 26px 14px;
+    border: solid 7px white
+}
+.iconThree {
+    background-color: var(--tabThree-);
+    font-family: 'Anton', sans-serif;
+    color: white;
+    padding: 26px 13px;
+    border: solid 7px white
+}
+.iconFour {
+    background-color: var(--tabFour-);
+    font-family: 'Anton', sans-serif;
+    color: white;
+    padding: 26px 24px;
+    border: solid 7px white
+}
+.mainImage {
+    width: 408px;
+    height: 270px;
+    padding: 0;
+}
