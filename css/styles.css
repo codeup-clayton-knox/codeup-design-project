@@ -41,28 +41,32 @@ h1{
     background-color: var(--tabOne-);
     font-family: 'Anton', sans-serif;
     color: white;
-    padding: 26px 18px;
+    width: 95px;
+    height: 95px;
     border: solid 7px white
 }
 .iconTwo {
     background-color: var(--tabTwo-);
     font-family: 'Anton', sans-serif;
     color: white;
-    padding: 26px 14px;
+    width: 95px;
+    height: 95px;
     border: solid 7px white
 }
 .iconThree {
     background-color: var(--tabThree-);
     font-family: 'Anton', sans-serif;
     color: white;
-    padding: 26px 13px;
+    width: 95px;
+    height: 95px;
     border: solid 7px white
 }
 .iconFour {
     background-color: var(--tabFour-);
     font-family: 'Anton', sans-serif;
     color: white;
-    padding: 26px 24px;
+    width: 95px;
+    height: 95px;
     border: solid 7px white
 }
 .mainImage {
