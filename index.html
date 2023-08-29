@@ -13,20 +13,23 @@
 	<div class="page-wrapper">
 		<header class="pt-2 px-2 pb-4">
 			<div class="container p-0">
+
 				<div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start gap-5">
-					<div class="d-flex align-items-center justify-content-center gap-3">
+					<!--					Nav bar-->
+					<div class="d-flex align-items-center justify-content-center gap-3 d-sm-none d-lg-flex">
 						<a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
 							<img src="images/logo.png" alt="logo">
 						</a>
 						<p class="fs-2 m-0">codeup design</p>
 					</div>
-<!--					Nav bar-->
-					<ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center align-self-end mb-md-0 px-4">
+
+					<ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center align-self-end mb-md-0 px-4 d-sm-none d-lg-flex">
 						<li><a href="#" class="nav-link px-2 link-secondary">SERVICES</a></li>
 						<li><a href="#" class="nav-link px-2 link-secondary">WORK</a></li>
 						<li><a href="#" class="nav-link px-2 link-secondary">BLOG</a></li>
 						<li><a href="#" class="nav-link px-2 link-secondary">CONTACT</a></li>
 					</ul>
+<!--					Hidden NAV BAR-->
 					<nav class="navbar bg-body-tertiary fixed-top d-lg-none">
 						<div class="container-fluid">
 								<a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
@@ -61,11 +64,23 @@
 					<h1 class="text-center">VISUAL DESIGN & WEB DEVELOPMENT</h1>
 					<h2 class="text-center">FROM PARK CITY, UTAH</h2>
 				</div>
-				<div class="col d-flex justify-content-center gap-5 p-5">
-					<div><p class="iconOne rounded-circle">DESIGN</p></div>
-					<div><p class="iconTwo rounded-circle" >DEVELOP</p></div>
-					<div><p class="iconThree rounded-circle">SUPPORT</p></div>
-					<div><p class="iconFour rounded-circle">HOST</p></div>
+<!--				Original main circles-->
+				<div class="col d-flex justify-content-center gap-5 p-5 d-none d-md-flex">
+					<div><p class="iconOne d-flex align-items-center justify-content-center rounded-circle">DESIGN</p></div>
+					<div><p class="iconTwo d-flex align-items-center justify-content-center rounded-circle" >DEVELOP</p></div>
+					<div><p class="iconThree d-flex align-items-center justify-content-center rounded-circle">SUPPORT</p></div>
+					<div><p class="iconFour d-flex align-items-center justify-content-center rounded-circle">HOST</p></div>
+				</div>
+<!--				Mobile circles-->
+				<div class="col d-flex justify-content-center gap-5 p-5 d-md-none flex-wrap align-content-start">
+					<div class="d-flex col-sm-6">
+						<div><p class="iconOne d-flex align-items-center justify-content-center rounded-circle">DESIGN</p></div>
+						<div><p class="iconTwo d-flex align-items-center justify-content-center rounded-circle" >DEVELOP</p></div>
+					</div>
+					<div class="d-flex col-sm-6">
+						<div><p class="iconThree d-flex align-items-center justify-content-center rounded-circle">SUPPORT</p></div>
+						<div><p class="iconFour d-flex align-items-center justify-content-center rounded-circle">HOST</p></div>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -74,6 +89,7 @@
 		<main class="container d-flex align-self-center">
 			<div class="row col-xl-8 col-md-12 p-5">
 				<p class="text-center p-5">SELECTED WORK</p>
+<!--				Original Images-->
 				<div class="col">
 					<div>
 						<img src="images/apple-ipad.jpg" class="mainImage border border-5" alt="picture of an apple ipad">
@@ -131,7 +147,6 @@
 			<aside class="row p-5 d-sm-none d-lg-flex">
 					<p class="text-center p-3 d-flex justify-content-center align-items-center">THE LAST</p>
 				<!--				Side DIV 1-->
-<!--						<div class="align-self-center">-->
 							<div class="d-flex gap-3">
 								<img class="border border-5 sideImages" src="images/mobile-phone.jpg" alt="Mobile Phone"> <h3 class="text-uppercase">The Admin Bar And Absolute Positioning</h3>
 							</div>
@@ -141,7 +156,6 @@
 							<div class="d-flex gap-3">
 								<img class="border border-5 sideImages" src="images/ipad.jpg" alt="ipad"> <h3 class="text-uppercase">How to Get Google to Like you</h3>
 							</div>
-<!--						</div>-->
 <!--				Side Div 2-->
 				<div>
 					<p>Last Tweet</p>
