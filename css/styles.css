@@ -11,7 +11,7 @@
 .page-wrapper {
     display: flex;
     flex-direction: column;
-    min-width: 100vh;
+    min-width: 100vw;
     background: var(--primaryColor-);
 }
 .container {
@@ -96,4 +96,10 @@ h1{
 }
 .smallButtonFour {
     background-color: var(--tabFour-);
+}
+
+@media (max-width: 768px) {
+    main.problem {
+        justify-content: center;
+    }
 }
