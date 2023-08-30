@@ -98,8 +98,8 @@ h1{
     background-color: var(--tabFour-);
 }
 
-@media (max-width: 768px) {
-    main.problem {
+@media (max-width: 991px) {
+    main.mainBody{
         justify-content: center;
     }
 }
