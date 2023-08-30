@@ -97,3 +97,9 @@ h1{
 .smallButtonFour {
     background-color: var(--tabFour-);
 }
+
+@media (max-width: 768px) {
+    main.problem {
+        justify-content: center;
+    }
+}
